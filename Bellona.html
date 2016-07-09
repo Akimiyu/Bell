@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<!-- Theme Coded & Designed By Chobittsu.Chatango.Com -->
+<style type="text/css">
+body {
+overflow: hidden;
+position: fixed;
+width: 100vw;
+height: 100vh;
+margin: 0px;
+padding: 0px;
+cursor: url(http://i.imgur.com/JVMjpWO.gif), auto;
+background-color: white;
+background: url("http://i.imgur.com/k8TIebB.gif") repeat-x, 
+url("http://i.imgur.com/yRAaYZz.gif") repeat-x,
+url("http://i.imgur.com/8rb0iFi.png") repeat; 
+background-attachment: fixed;
+background-position: top, bottom, top;}
+
+::-webkit-scrollbar-thumb {
+background-color: lightpink;
+border-radius: 5px;
+width: 10px; }
+ 
+::-webkit-scrollbar {
+background-color: #FC6C85;
+border-radius: 5px;
+width: 10px; }
+
+::selection {
+	background-color: pink;
+	color: white; }
+ 
+::-moz-selection {
+	background-color: pink;
+	color: white; }
+ 
+::-o-selection {
+	background-color: pink;
+	color: white; }
+ 
+::-webkit-selection {
+	background-color: pink;
+	color: white; }
+
+a, a:hover, input[type=button] { text-decoration: none; }
+
+a:hover { 
+cursor: url(http://i.imgur.com/AdqwbYd.png), auto;
+text-shadow: 0px 0px 1px DeepPink; }
+
+.hidden{
+width: 0px;
+height: 0px;
+top: 150px;
+left: 430px;
+overflow: hidden;
+visibility: hidden;
+position: absolute;
+z-index: -1; }
+
+.wrapper{
+position: relative;
+margin: auto;
+width: 750px; }
+
+
+#im {
+position: absolute;
+top: 220px;
+left: 95px; }
+
+#im img {
+width: 280px;
+height: 380px;
+box-shadow: 0px 0px 2px pink;
+border: 1px dotted pink;
+border-radius: 10px ; }
+
+#SL {
+Position: absolute;
+top: 370px;
+left: 5px;
+width: 90px; }
+
+#ST {
+background: white;
+float: right;
+text-align: right;
+display: inline-block;
+margin-bottom: 4px;
+min-width: 50px; 
+color: #FC6C85;
+box-shadow: inset 0px 0px 1px pink;
+border: 1px dotted Pink; 
+font-variant: small-caps;
+letter-spacing: 1px;
+padding: 0px 8px;
+font-family: consolas;
+font-size: 14px; 
+
+border-radius: 10px 0px 0px 10px ;
+-o-border-radius: 10px 0px 0px 10px ;
+-moz-border-radius: 10px 0px 0px 10px ;
+-webkit-border-radius: 10px 0px 0px 10px ;
+-webkit-transition: all 0.8s ease;
+-moz-transition: all 0.8s ease;
+-o-transition: all 0.8s ease;
+transition: all 0.8s ease; }
+
+#ST:hover {
+min-width: 65px; 
+letter-spacing: 4px; } 
+
+#TT {
+position: absolute;
+text-align: Center;
+width: 360px;
+left: 390px; 
+top: 210px;
+font-family: pristina;
+font-size: 35px; 
+letter-spacing: 3px;
+color: lightpink;
+text-shadow: 1px 1px 1px DeepPink; }
+
+#Tab {
+position: absolute;
+overflow: hidden;
+top: 259px;
+right: 0px;
+width: 363px; 
+height: 320px; }
+
+.Box {
+background: white;
+box-shadow: 0px 0px 2px pink;
+border: 1px dotted pink; 
+border-radius: 10px;  
+padding: 10px 0px; }
+
+.p {
+overflow: auto;
+height: 275px;
+Width: 340px;
+padding: 5px 10px;
+text-align: justify;
+font-family: arial;
+font-size: 10px;
+letter-spacing: 1px;
+line-height: 12px;
+color: grey; }
+
+h1{
+margin: 0px 0px 10px 0px;
+text-align: center; 
+font-family: century gothic; 
+color: DeepPink; 
+font-size: 18px;
+font-weight: normal; 
+font-variant: small-caps;
+letter-spacing: 5px;
+line-height: auto;
+text-shadow: 0px 0px 2px DeepPink;
+border-bottom: double 4px Pink; }
+
+h2{
+margin: 0px 0px 5px 0px;
+text-align: left; 
+font-family: century gothic; 
+color: DeepPink; 
+font-size: 13px;
+font-weight: normal;
+font-variant: small-caps;
+text-transform: capitalize;
+letter-spacing: 2px;
+border-bottom: dashed 1px pink; }
+
+b {
+color: #FC6C85;
+font-weight: ; }
+
+input[type=button] {
+background-color: pink;
+border: none;
+border-radius: 10px;
+padding: 5px;
+color: white;
+font-size: 12px;
+letter-spacing: 1px;
+font-variant: small-caps;
+box-shadow: 0px 0px 2px pink; }
+
+input[type=button]:hover {
+box-shadow: 0px 0px 2px white;
+text-shadow: 0px 0px 1px white;
+cursor: url(http://i.imgur.com/AdqwbYd.png), auto; }
+
+#Boom {
+position: fixed;
+z-index: 5;
+display: table-cell;
+vertical-align: middle;
+text-align: center;
+height: 100vh;
+width: 100vw;
+color: white;
+font-family: century gothic;
+background: rgba(0, 0, 0, 0.3) }
+
+h3 { text-transform: capitalize; }
+
+</style>
+
+
+<body>
+<script src="https://dl.dropboxusercontent.com/s/1j7c1z3eij8nw0s/bell-js.js"></script>
+
+<div id="Boom">
+	<h3>WARNING!!!<br>
+	The roleplay profile have some NSFW content<br>
+	Do you wish to proceed?</h3>
+	<input type="button" value="Yes, Please!" onClick="Pop('No')" />
+</div>
+
+<div class="wrapper">
+ <!-- Navigation Tab -->
+<div id="SL">
+	<a id="ST" onclick="showPage('1'); visit(this)">Page 1</a>
+	<a id="ST" onclick="showPage('2'); visit(this)">Page 2</a>
+	<a id="ST" onclick="showPage('3'); visit(this)">Page 3</a>
+	<a id="ST" href="https://akimiyu-code.tumblr.com" target="_blank">Credit</a>
+</div>
+
+
+<!-- Picture -->
+<div id="im">
+<img src="http://fp.chatango.com/profileimg/b/e/bellona/full.jpg">
+</div>
+
+
+<!-- Heading Title -->
+<div id="TT">Theme: Pink Sugar</div>
+<div id="Tab" class="Box"></div>
+
+
+<div class="hidden">
+<!-- Info START -->
+<div id="Tab-1">
+<h1>Profile</h1>
+<div class="p">
+<h2>Outline</h2>
+	<b>Name:</b> Bellona Jace <br>
+	<b>Gender:</b> Female <br>
+	<b>Zodiac:</b> Virgo <br>
+	<b>Real Age:</b> 200 <br>
+	<b>Biological Age:</b> 16 <br>
+	<b>Race:</b> Demi Human <br>
+	<b>Height:</b> 5'0" <br>
+	<b>Weight:</b> 120lbs <br>
+	<b>Sexual Orientation:</b> Heteroflexible <br>
+	<br>
+<h2>Appearance</h2>
+	<b>Hair:</b> Long & silky, pinkish-blonde. <br>
+	<b>Eyes:</b> Almond shape, raspberry-red coloured pupils.  <br>
+	<b>Lips:</b> Thin & smooth surface, soft pink tone. <br>
+	<b>Skin:</b> Vibrant porecelain skin. <br>
+	<b>Body:</b> Perfect hour glass; a bit chubby. <br>
+	<b>Chest:</b> Firm C cup, pink areolas & perky nipples. <br>
+	<b>Piercing(s):</b> One on each ear. <br>
+	<b>Accessories:</b> Golden bracelets. <br>
+	<br>
+</div></div>
+
+<div id="Tab-2">
+<h1>About</h1>
+<div class="p">
+ Work in progress
+</div></div>
+
+<div id="Tab-3">
+<h1>Rules</h1>
+<div class="p">
+	<b>1.</b> Must be above 17 years old IRL, especially when it comes to erotic scenes.<br><br>
+	<b>2.</b> No "one word" replies, one line is acceptable, but I'm not capable of writing a paragraph.<br><br>
+	<b>3.</b> Do not control my character's actions in RP/ERP. It can spoil the mood.<br><br>
+	<b>4.</b> Decent grammar is appreciated as long as I could understand the sentences.<br><br>
+	<b>5.</b> If you are busy or going AFK then please inform me, if it's possible.<br><br>
+	<b>6.</b> No scat, vore, watersport, hyper sizeplay, ageplay, zoophilia, etc.
+</div></div>
+<!-- Info END -->
+</div>
+</div>
+</body>
+
+</html>
